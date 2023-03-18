@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.header-mian {
+    padding: 1rem 2rem;
+    
+    font-size: 1.125rem;
+    
+}
+
+#container {
+    height: 80px;
+    width: auto;
+    display: flex;
+}
+
+#container>div {
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    height: 45px;
+    width: 120px;
+    padding: 3px;
+    margin-top: 10px;
+    
+}
+
+.btn {
+    font-size: 25px;
+    align-items: center;
+    display: none;
+}
+
+.mian {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mian-text {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+}
+
+.mian-text div {
+    margin: 10px;
+}
+
+.mian-one {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+}
+
+.mian-one div {
+    margin: 10px;
+}
+
+.down {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background:#00d1b2;
+    border-radius: 5px;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.spon {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background: #e9d9e3;
+    border-radius: 5px;
+    justify-content: center;
+    font-size: 15px;
+}
+.menu {
+    position: absolute;
+    right: 50px;
+    top: 35px;
+    height: 40px;
+    width: 210px;
+    display: flex;
+    background-color:  #f5f5f5;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+@media only screen and (max-width: 1146px) {
+    .menu {
+        display: none;
+    }
+    .down {
+        display: none;
+    }
+    .spon-one {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1146px) {
+    .btn {
+        display: block;
+        ;
+
+    }
+    .mian-text div {
+        margin: 1px;
+    }
+
+}
+
+
+
+.fa-book {
+    color:#48c78e;
+}
+
+.fa-play-circle {
+    color:#48c78e;
+}
+
+.fa-star {
+    color: orange;
+}
+
+.fa-heart {
+    color: deeppink;
+}
+
+.fa-ellipsis-h {
+    color: blue;
+}
+
+.fa-twitter {
+    color: blue;
+}
+
+.fa-download {
+    color: aliceblue;
+}
+
+.down-one {
+    color: aliceblue;
+}
+
+.fa-search {
+    color: #48c78e;
+}
+
+.fa-thumbs-up {
+    color: #ea4aaa;
+}
+
+.spon-one {
+    color: #ea4aaa;
+}
+
+
+
+

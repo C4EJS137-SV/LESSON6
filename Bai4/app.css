@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 80px;
+    height: 80px;
+}
+p{
+    color: aliceblue;
+    padding: 5px;
+}
+b {
+    color: khaki;
+    margin-top: 20px;
+    }
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: aquamarine;
+}
+.container {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    }
+.text {
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+   }
+.text-one {
+    color: khaki;
+}
+.conten {
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.docs {
+    color:khaki ;
+    font-size: 20px;
+}
+.commen {
+    color:khaki ;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.mian {
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.channer{
+    color:khaki ;
+    font-size: 20px;
+}
+.more{
+    margin-top: 60px;
+    color:khaki ;
+    font-size: 20px;
+}
+ .btn, .text-btn {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    display: none;
+}
+@media only screen and (max-width: 979px){
+    .btn{
+        display: block;
+        display: flex;
+    }
+    .text-btn {
+        display: block;
+        display: flex;
+    }
+    .mian-text {
+        display: none;
+    }
+}
+.fa-solid {
+    color: white;
+}

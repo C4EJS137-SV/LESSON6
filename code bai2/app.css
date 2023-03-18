@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    background-color: #fafafa;
+    padding: 3rem 1.5rem 6rem;
+
+}
+a {
+    text-decoration: none;
+    color: #363636;
+  }
+
+p { 
+    padding: 6px;
+}
+em { 
+    font-style: normal;
+    color: #b5b5b5;
+    margin-left: 1rem;
+    text-align: right;
+    
+}
+.btn {
+    padding:12px ;
+    width: 50%;
+    }
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.75rem;
+   }
+.mian {
+    width: 25%;
+    padding: 12px;
+}
+.text a {
+    color: #b5b5b5;
+    
+}
+
+.menu-one   {
+    color: #363636;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.one a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+strong {
+    flex-grow: 1;
+    font-weight: unset;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .one a {
+       display: flex;
+       flex-wrap: wrap;
+       
+    }
+    em {
+        text-align: left;
+        
+    }
+   
+  }
+
+a:hover {
+    color: rgb(150, 150, 224);
+}
+
+.fa-star , .fa-rss {
+    color: orange;
+}
+.fa-heart {
+    color: red;
+}
+.fa-patreon {
+    color: coral;
+}
+.fa-plug {
+    color: mediumblue;
+}
+.fa-bookmark {
+    color: chartreuse;
+}
+.fa-medal {
+    color: darkgreen;
+}

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.container {
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 28em;
+    padding: 25px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.people {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.name {
+    padding-left: 8px;
+}
+
+.full-name {
+    color: #363636;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.user-name {
+    color: #7a7a7a;
+    font-size: .875em;
+}
+
+.content {
+    color: #363636;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 1em
+}
+
+.time {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 0.25em;
+}
+
+.time a {
+    color: #7a7a7a;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 18px;
+    }
+
+.icon a {
+    color: #7a7a7a;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.icon-one {
+    margin-left: 25px;
+}
+
+.icon span {
+    margin-left: 5px;
+}
+
+.icon-heart {
+    margin-left: 25px;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 800px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
